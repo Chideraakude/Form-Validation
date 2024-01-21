@@ -1,0 +1,144 @@
+.RegisterBody{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Wrap{
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CreateLog{
+    width: 70%;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 3px;
+    border: 2px solid grey;
+}
+.Create{
+    width: 45%;
+    height: 95%;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+
+}
+.Login{
+    width: 45%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+}
+.WrapBody{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: 2px solid blue;
+}
+.Body{
+    width:95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.FirstLast{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+   
+.First{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.errorText{
+    color: red;
+    font-size: 10px;
+  }
+.firstInput{
+    width: 100%;
+    height: 65%;
+    border-radius: 3px;
+    border: 2px solid blue;
+}
+.Last{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: brown; */
+   
+}
+.lastInput{
+    width: 100%;
+    height: 65%;
+    border-radius: 3px;
+    border: 2px solid blue;
+}
+.BodyBelow{
+    width: 100%;
+    height: 80px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+.emailInput{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;
+    border: 2px solid blue;
+}
+.myInput{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;
+    border: 2px solid blue;
+
+}
+.passwordInput{
+    width: 95%;
+    height: 100%;
+    border: none;
+}
+.SignUpBtn{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}

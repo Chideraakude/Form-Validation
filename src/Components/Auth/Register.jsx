@@ -10,7 +10,6 @@ const Register = () => {
  const handleShowPassword =()=>{
     setShowPassword(!showPassword)
  }
-
  const [password, setPassword] = useState("");
  const [confirmPassword, setConfirmPassword] = useState("");
  const[firstName, setFirstName] = useState("")
